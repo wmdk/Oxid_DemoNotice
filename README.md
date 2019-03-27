@@ -28,7 +28,7 @@ Please report all issues to https://github.com/wmdk/Oxid_DemoNotice/issues for t
 
 ## License
 
-Check https://github.com/wmdk/Oxid_ErpPaymentInfo/blob/master/LICENSE for current licence informations.
+Check https://github.com/wmdk/Oxid_DemoNotice/blob/master/LICENSE for current licence informations.
 
 ## Imprint
 
