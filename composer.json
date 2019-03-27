@@ -1,0 +1,42 @@
+{
+    "name":        "wmdk/wmdkdemonotice",
+    "version":     "0.0.1",
+    "description": "WMDK :: Demo Notice",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "wmdk",
+        "kussin",
+        "oxid",
+        "modules"
+    ],
+    "homepage":    "https://www.kussin.de/",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "Kussin | eCommerce und Online-Marketing GmbH",
+            "email": "info@kussin.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "wmdk/wmdkdemonotice",
+            "source-directory": "modules/wmdk/wmdkdemonotice",
+            "blacklist-filter": [
+                "build/**/*.*",
+                "grunt/**/*.*",
+                "node_modules/**/*.*"
+            ]
+        }
+    },
+    "require":     {
+        "php": ">=7.0"
+    },
+    "autoload":    {
+        "psr-4": {
+            "Wmdk\\WmdkDemoNotice\\": "../../../source/modules/wmdk/wmdkdemonotice"
+        }
+    }
+}
